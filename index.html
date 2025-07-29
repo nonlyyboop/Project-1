@@ -1,11 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PotolokPro.Kz</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quas nesciunt libero quo cumque repudiandae quos doloremque, sequi nobis hic atque magnam molestias, numquam ab laudantium quidem omnis. Odio, voluptates?</p>
+  <header>
+    <div class="container nav">
+      <div class="logo">PotolokPro.Kz</div>
+      <nav>
+        <a href="#home">Главная</a>
+        <a href="#about">О компании</a>
+        <a href="#catalog">Каталог</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1>Натяжные потолки <span class="highlight">премиум-класса</span> — по цене обычных!</h1>
+        
+          <div class="benefits-grid">
+            <div class="benefit-item">
+              <div class="benefit-icon">⚡</div>
+              <p>Установка за <strong>1 день</strong></p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">🛡️</div>
+              <p>Гарантия <strong>10 лет</strong></p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">📏</div>
+              <p>Бесплатный <strong>выезд замерщика</strong></p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">🎨</div>
+              <p><strong>100+</strong> цветов и фактур</p>
+            </div>
+          </div>
+
+          <div class="cta-buttons">
+            <a href="#contacts" class="btn-primary">Заказать замер</a>
+            <a href="#catalog" class="btn-secondary">Смотреть каталог</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="about" class="about">
+      <h2>Почему мы?</h2>
+      <div class="image-container">
+        <div class="text-photo">
+          <img src="img/about/1.jpg" alt="Опыт работы" loading="lazy">
+          <div class="image-overlay">
+            <p>Опыт работы более 15 лет</p>
+          </div>
+        </div>
+        <div class="text-photo">
+          <img src="img/about/2.jpg" alt="Клиенты" loading="lazy">
+          <div class="image-overlay">
+            <p>Дорожим нашими клиентами</p>
+          </div>
+        </div>
+        <div class="text-photo">
+          <img src="img/about/3.jpg" alt="Гарантия" loading="lazy">
+          <div class="image-overlay">
+            <p>Выполняем все гарантийные обязательства</p>
+          </div>
+        </div>
+        <div class="text-photo">
+          <img src="img/about/4.jpg" alt="Монтажники" loading="lazy">
+          <div class="image-overlay">
+            <p>Сертифицированные монтажники</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <div class="info-container">
+        <h2>КЛЮЧЕВЫЕ ПРЕИМУЩЕСТВА</h2>
+        <p>Мы специализируемся на качественном ремонте и отделке помещений с 2009 года.</p>
+        <ul class="benefits-list">
+          <li><strong>Премиальные материалы</strong> — используем только проверенные бренды</li>
+          <li><strong>Индивидуальный подход</strong> — подбираем решения под ваш бюджет и стиль</li>
+          <li><strong>Честные сроки</strong> — сдаем объекты точно в срок</li>
+          <li><strong>Контроль качества</strong> — ежедневные отчеты о ходе работ</li>
+        </ul>
+        <div class="projects-count">
+          Более <span>10.000</span> успешно завершенных проектов
+        </div>
+      </div>
+    </section>
+
+    <section id="suppliers" class="suppliers-section">
+      <div class="suppliers-container">
+        <div class="suppliers-header">
+          <h2>Работаем только с проверенными поставщиками</h2>
+          <p>Сертифицированные материалы от ведущих европейских производителей</p>
+        </div>
+        
+        <div class="suppliers-grid">
+          <div class="supplier-card">
+            <div class="logo-container">
+              <img src="img/suppliers/kraab-logo.svg" alt="Kraab Systems" loading="lazy" class="kraab-supplier-logo">
+            </div>
+            <p class="supplier-name">Kraab Systems</p>
+            <p class="supplier-desc">Инновационные инженерные решения</p>
+          </div>
+
+          <div class="supplier-card">
+            <div class="logo-container">
+              <img src="img/suppliers/lumfer-logo.svg" alt="LumFer" loading="lazy" class="supplier-logo">
+            </div>
+            <p class="supplier-name">LumFer</p>
+            <p class="supplier-desc">Экологичные материалы премиум-класса</p>
+          </div>
+
+          <div class="supplier-card">
+            <div class="logo-container">
+              <img src="img/suppliers/flexy-logo.svg" alt="FLEXY" loading="lazy" class="flexy-supplier-logo">
+            </div>
+            <p class="supplier-name">FLEXY</p>
+            <p class="supplier-desc">Гибкие решения для любых задач</p>
+          </div>
+
+          <div class="supplier-card">
+            <div class="logo-container">
+              <img src="img/suppliers/alteza-logo.svg" alt="ALTEZA" loading="lazy" class="alteza-supplier-logo">
+            </div>
+            <p class="supplier-name">ALTEZA</p>
+            <p class="supplier-desc">Высочайшие стандарты качества</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients-section">
+      <h2>Наши заказчики</h2>
+      <div class="clients-grid">
+        <img src="img/clients/SVOYDOM.png" alt="SVOYDOM" loading="lazy">
+        <img src="img/clients/YESAPPART.png" alt="YESAPPART" loading="lazy">
+        <img src="img/clients/BIGROUP.png" alt="BIGROUP" loading="lazy">
+        <img src="img/clients/BASIS_A.png" alt="BASIS A" loading="lazy">
+      </div>
+    </section>
+
+    <section class="projects-section">
+      <div class="container">
+        <h2>Наши проекты</h2>
+        <p class="section-subtitle">Примеры наших лучших работ</p>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="img/projects/1.jpg" alt="ЖК Altyn Adam" loading="lazy" class="project-image">
+              <div class="project-overlay">
+                <a href="#contacts" class="project-link">Заказать</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>ЖК "Altyn Adam"</h3>
+              <p>Многоуровневые потолки</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="img/projects/2.jpg" alt="Проект 2" loading="lazy" class="project-image">
+              <div class="project-overlay">
+                <a href="#contacts" class="project-link">Заказать</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>БЦ "Prime"</h3>
+              <p>Глянцевые потолки</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="img/projects/3.jpg" alt="Проект 3" loading="lazy" class="project-image">
+              <div class="project-overlay">
+                <a href="#contacts" class="project-link">Заказать</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Ресторан "La Piazza"</h3>
+              <p>Тканевые потолки</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalog" class="slider">
+      <h2>Категории (например, потолки)</h2>
+      <div class="vertical-slider">
+        <div class="slider-container">
+          <div class="slide">
+            <h3>Натяжные потолки</h3>
+            <p>Глянцевые, матовые, сатиновые</p>
+            <div class="slide-image" style="background-image: url('img/categories/1.jpg')"></div>
+          </div>
+          <div class="slide">
+            <h3>Многоуровневые потолки</h3>
+            <p>Сложные дизайнерские решения</p>
+            <div class="slide-image" style="background-image: url('img/categories/2.jpg')"></div>
+          </div>
+          <div class="slide">
+            <h3>Потолки с подсветкой</h3>
+            <p>Светодиодные и звездное небо</p>
+            <div class="slide-image" style="background-image: url('img/categories/3.jpg')"></div>
+          </div>
+          <div class="slide">
+            <h3>Тканевые потолки</h3>
+            <p>Бесшовные экологичные решения</p>
+            <div class="slide-image" style="background-image: url('img/categories/4.jpg')"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="contact-section">
+      <h2>Остались вопросы? Свяжитесь с нами!</h2>
+      <div class="contact-wrapper">
+        <a href="#">WhatsApp</a>
+        <a href="https://www.instagram.com/potolokpro.kz/">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-nav">
+      <a href="#home">Главная</a>
+      <a href="#about">О компании</a>
+      <a href="#catalog">Каталог</a>
+      <a href="#contacts">Контакты</a>
+    </div>
+    <div class="logo">PotolokPro.Kz</div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
 </body>
 </html>
